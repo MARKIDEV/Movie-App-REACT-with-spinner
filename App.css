@@ -1,0 +1,97 @@
+.loader {
+  color: rgb(222, 228, 230);
+  background-color: rgb(4, 44, 22);
+  height: 100vh;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 100px;
+}
+.fa-spin {
+  font-size: 100px;
+}
+header {
+  height: 250px;
+}
+.title {
+  color: rgb(21, 21, 78);
+  font-size: 50px;
+  text-align: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  background-color: rgb(21, 38, 53);
+  color: rgb(188, 229, 243);
+  width: 300px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 25px;
+  background-color: rgb(21, 38, 53);
+  margin: 11px;
+  width: 380px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+}
+.poster {
+  position: relative;
+  color: gold;
+  font-weight: bold;
+  margin: 10px;
+  text-align: center;
+}
+
+.poster > img {
+  border-radius: 10px;
+  width: 250px;
+}
+.content > h1 {
+  font-size: 25px;
+}
+.content > p {
+  font-size: 15px;
+}
+.addmovie {
+  margin: 10px;
+  text-align: center;
+}
+
+.btn-submit {
+  border-radius: 6px;
+  margin: 10px;
+  width: 120px;
+  height: 32px;
+  background-color: rgb(28, 34, 119);
+  border: 2px solid rgb(26, 26, 100);
+  color: white;
+}
+.rating {
+  background-color: rgb(5, 5, 44);
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 150px;
+  text-align: center;
+  position: fixed;
+  top: 50px;
+  left: 1082px;
+  z-index: 2;
+}
+.input {
+  border-radius: 33px;
+  text-align: center;
+  height: 40px;
+  border: 8px #15155d solid;
+}
+.form {
+  margin: 10px;
+}
